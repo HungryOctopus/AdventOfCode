@@ -2,7 +2,7 @@ import csv;
 from csv import reader;
 
 # Open the CSV file for reading
-with open(r'd:\users\amelie.monnoyer\code\AdventOfCode2023\01\input-text.csv') as csvfile:
+with open(r'd:\link\to\file\\input-text.csv') as csvfile:
     reader = csv.reader(csvfile, delimiter=',', quotechar='"')
 
     # Initialize a list to store the sums of first and last digits

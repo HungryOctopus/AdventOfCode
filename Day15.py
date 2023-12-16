@@ -1,8 +1,8 @@
-import os  # works with files and directories
+import os
 
 file_path = (
     os.path.dirname(__file__) + "/input/Input-Day15.txt"
-)  # creates a number dictionnary
+)
 
 # test_input = "rn=1,cm-,qp=3,cm=2,qp-,pc=4,ot=9,ab=5,pc-,pc=6,ot=7"
 

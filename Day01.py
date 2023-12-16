@@ -23,3 +23,9 @@ with open(r"d:\link\to\file\\input-text.csv") as csvfile:
 # Calculate the total sum of all rows
 total_sum = sum(sums)
 print("Total sum:", total_sum)
+
+
+# other ways to do this:
+# write two functions getFirst é getLast
+# and use the string formatting syntax "%s%s":
+# return int("%s%s" % (getFirst(s), getLast(s)))
